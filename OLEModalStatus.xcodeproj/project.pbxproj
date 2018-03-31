@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57DE881206F4E5E0002CA6D /* OLEModalStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57DE877206F4E5E0002CA6D /* OLEModalStatus.framework */; };
+		C57DE886206F4E5E0002CA6D /* OLEModalStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DE885206F4E5E0002CA6D /* OLEModalStatusTests.swift */; };
+		C57DE888206F4E5E0002CA6D /* OLEModalStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = C57DE87A206F4E5E0002CA6D /* OLEModalStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C57DE882206F4E5E0002CA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57DE86E206F4E5E0002CA6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57DE876206F4E5E0002CA6D;
+			remoteInfo = OLEModalStatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C57DE877206F4E5E0002CA6D /* OLEModalStatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OLEModalStatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57DE87A206F4E5E0002CA6D /* OLEModalStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLEModalStatus.h; sourceTree = "<group>"; };
+		C57DE87B206F4E5E0002CA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57DE880206F4E5E0002CA6D /* OLEModalStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLEModalStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57DE885206F4E5E0002CA6D /* OLEModalStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLEModalStatusTests.swift; sourceTree = "<group>"; };
+		C57DE887206F4E5E0002CA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57DE873206F4E5E0002CA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57DE87D206F4E5E0002CA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57DE881206F4E5E0002CA6D /* OLEModalStatus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C57DE86D206F4E5E0002CA6D = {
+			isa = PBXGroup;
+			children = (
+				C57DE879206F4E5E0002CA6D /* OLEModalStatus */,
+				C57DE884206F4E5E0002CA6D /* OLEModalStatusTests */,
+				C57DE878206F4E5E0002CA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C57DE878206F4E5E0002CA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57DE877206F4E5E0002CA6D /* OLEModalStatus.framework */,
+				C57DE880206F4E5E0002CA6D /* OLEModalStatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57DE879206F4E5E0002CA6D /* OLEModalStatus */ = {
+			isa = PBXGroup;
+			children = (
+				C57DE87A206F4E5E0002CA6D /* OLEModalStatus.h */,
+				C57DE87B206F4E5E0002CA6D /* Info.plist */,
+			);
+			path = OLEModalStatus;
+			sourceTree = "<group>";
+		};
+		C57DE884206F4E5E0002CA6D /* OLEModalStatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				C57DE885206F4E5E0002CA6D /* OLEModalStatusTests.swift */,
+				C57DE887206F4E5E0002CA6D /* Info.plist */,
+			);
+			path = OLEModalStatusTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C57DE874206F4E5E0002CA6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57DE888206F4E5E0002CA6D /* OLEModalStatus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C57DE876206F4E5E0002CA6D /* OLEModalStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57DE88B206F4E5E0002CA6D /* Build configuration list for PBXNativeTarget "OLEModalStatus" */;
+			buildPhases = (
+				C57DE872206F4E5E0002CA6D /* Sources */,
+				C57DE873206F4E5E0002CA6D /* Frameworks */,
+				C57DE874206F4E5E0002CA6D /* Headers */,
+				C57DE875206F4E5E0002CA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLEModalStatus;
+			productName = OLEModalStatus;
+			productReference = C57DE877206F4E5E0002CA6D /* OLEModalStatus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C57DE87F206F4E5E0002CA6D /* OLEModalStatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57DE88E206F4E5E0002CA6D /* Build configuration list for PBXNativeTarget "OLEModalStatusTests" */;
+			buildPhases = (
+				C57DE87C206F4E5E0002CA6D /* Sources */,
+				C57DE87D206F4E5E0002CA6D /* Frameworks */,
+				C57DE87E206F4E5E0002CA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57DE883206F4E5E0002CA6D /* PBXTargetDependency */,
+			);
+			name = OLEModalStatusTests;
+			productName = OLEModalStatusTests;
+			productReference = C57DE880206F4E5E0002CA6D /* OLEModalStatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57DE86E206F4E5E0002CA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Son Nguyen";
+				TargetAttributes = {
+					C57DE876206F4E5E0002CA6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C57DE87F206F4E5E0002CA6D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C57DE871206F4E5E0002CA6D /* Build configuration list for PBXProject "OLEModalStatus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C57DE86D206F4E5E0002CA6D;
+			productRefGroup = C57DE878206F4E5E0002CA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57DE876206F4E5E0002CA6D /* OLEModalStatus */,
+				C57DE87F206F4E5E0002CA6D /* OLEModalStatusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57DE875206F4E5E0002CA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57DE87E206F4E5E0002CA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57DE872206F4E5E0002CA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57DE87C206F4E5E0002CA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57DE886206F4E5E0002CA6D /* OLEModalStatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C57DE883206F4E5E0002CA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C57DE876206F4E5E0002CA6D /* OLEModalStatus */;
+			targetProxy = C57DE882206F4E5E0002CA6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C57DE889206F4E5E0002CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C57DE88A206F4E5E0002CA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C57DE88C206F4E5E0002CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OLEModalStatus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ole.OLEModalStatus;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C57DE88D206F4E5E0002CA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OLEModalStatus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ole.OLEModalStatus;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C57DE88F206F4E5E0002CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OLEModalStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ole.OLEModalStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C57DE890206F4E5E0002CA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OLEModalStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ole.OLEModalStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57DE871206F4E5E0002CA6D /* Build configuration list for PBXProject "OLEModalStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57DE889206F4E5E0002CA6D /* Debug */,
+				C57DE88A206F4E5E0002CA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57DE88B206F4E5E0002CA6D /* Build configuration list for PBXNativeTarget "OLEModalStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57DE88C206F4E5E0002CA6D /* Debug */,
+				C57DE88D206F4E5E0002CA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57DE88E206F4E5E0002CA6D /* Build configuration list for PBXNativeTarget "OLEModalStatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57DE88F206F4E5E0002CA6D /* Debug */,
+				C57DE890206F4E5E0002CA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57DE86E206F4E5E0002CA6D /* Project object */;
+}
