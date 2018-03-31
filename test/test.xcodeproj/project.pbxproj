@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C578324D206F702D00584A8A /* OLEModalStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C578324A206F700300584A8A /* OLEModalStatus.framework */; };
-		C578324E206F702D00584A8A /* OLEModalStatus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C578324A206F700300584A8A /* OLEModalStatus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C57DE8A3206F6CD80002CA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DE8A2206F6CD80002CA6D /* AppDelegate.swift */; };
 		C57DE8A5206F6CD80002CA6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DE8A4206F6CD80002CA6D /* ViewController.swift */; };
 		C57DE8A8206F6CD80002CA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57DE8A6206F6CD80002CA6D /* Main.storyboard */; };
 		C57DE8AA206F6CD80002CA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57DE8A9206F6CD80002CA6D /* Assets.xcassets */; };
 		C57DE8AD206F6CD80002CA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57DE8AB206F6CD80002CA6D /* LaunchScreen.storyboard */; };
 		C57DE8B8206F6CD80002CA6D /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DE8B7206F6CD80002CA6D /* testTests.swift */; };
+		C5FF6306206F9A9700E034B4 /* OLEModalStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF6303206F9A8E00E034B4 /* OLEModalStatus.framework */; };
+		C5FF6307206F9A9700E034B4 /* OLEModalStatus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF6303206F9A8E00E034B4 /* OLEModalStatus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C5783249206F700300584A8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5783244206F700300584A8A /* OLEModalStatus.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C57DE877206F4E5E0002CA6D;
-			remoteInfo = OLEModalStatus;
-		};
-		C578324B206F700300584A8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5783244206F700300584A8A /* OLEModalStatus.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C57DE880206F4E5E0002CA6D;
-			remoteInfo = OLEModalStatusTests;
-		};
-		C578324F206F702D00584A8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5783244206F700300584A8A /* OLEModalStatus.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C57DE876206F4E5E0002CA6D;
-			remoteInfo = OLEModalStatus;
-		};
 		C57DE8B4206F6CD80002CA6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C57DE897206F6CD80002CA6D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C57DE89E206F6CD80002CA6D;
 			remoteInfo = test;
+		};
+		C5FF6302206F9A8E00E034B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FF62FD206F9A8E00E034B4 /* OLEModalStatus.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C57DE877206F4E5E0002CA6D;
+			remoteInfo = OLEModalStatus;
+		};
+		C5FF6304206F9A8E00E034B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FF62FD206F9A8E00E034B4 /* OLEModalStatus.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C57DE880206F4E5E0002CA6D;
+			remoteInfo = OLEModalStatusTests;
+		};
+		C5FF6308206F9A9700E034B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FF62FD206F9A8E00E034B4 /* OLEModalStatus.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C57DE876206F4E5E0002CA6D;
+			remoteInfo = OLEModalStatus;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C578324E206F702D00584A8A /* OLEModalStatus.framework in Embed Frameworks */,
+				C5FF6307206F9A9700E034B4 /* OLEModalStatus.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C5783244206F700300584A8A /* OLEModalStatus.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OLEModalStatus.xcodeproj; path = ../OLEModalStatus/OLEModalStatus.xcodeproj; sourceTree = "<group>"; };
 		C57DE89F206F6CD80002CA6D /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57DE8A2206F6CD80002CA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C57DE8A4206F6CD80002CA6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		C57DE8B3206F6CD80002CA6D /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57DE8B7206F6CD80002CA6D /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		C57DE8B9206F6CD80002CA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FF62FD206F9A8E00E034B4 /* OLEModalStatus.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OLEModalStatus.xcodeproj; path = ../OLEModalStatus.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C578324D206F702D00584A8A /* OLEModalStatus.framework in Frameworks */,
+				C5FF6306206F9A9700E034B4 /* OLEModalStatus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,19 +95,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C5783245206F700300584A8A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C578324A206F700300584A8A /* OLEModalStatus.framework */,
-				C578324C206F700300584A8A /* OLEModalStatusTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C57DE896206F6CD80002CA6D = {
 			isa = PBXGroup;
 			children = (
-				C5783244206F700300584A8A /* OLEModalStatus.xcodeproj */,
+				C5FF62FD206F9A8E00E034B4 /* OLEModalStatus.xcodeproj */,
 				C57DE8A1206F6CD80002CA6D /* test */,
 				C57DE8B6206F6CD80002CA6D /* testTests */,
 				C57DE8A0206F6CD80002CA6D /* Products */,
@@ -153,6 +144,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C5FF62FE206F9A8E00E034B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FF6303206F9A8E00E034B4 /* OLEModalStatus.framework */,
+				C5FF6305206F9A8E00E034B4 /* OLEModalStatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,7 +168,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C5783250206F702D00584A8A /* PBXTargetDependency */,
+				C5FF6309206F9A9700E034B4 /* PBXTargetDependency */,
 			);
 			name = test;
 			productName = test;
@@ -227,8 +227,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C5783245206F700300584A8A /* Products */;
-					ProjectRef = C5783244206F700300584A8A /* OLEModalStatus.xcodeproj */;
+					ProductGroup = C5FF62FE206F9A8E00E034B4 /* Products */;
+					ProjectRef = C5FF62FD206F9A8E00E034B4 /* OLEModalStatus.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -240,18 +240,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C578324A206F700300584A8A /* OLEModalStatus.framework */ = {
+		C5FF6303206F9A8E00E034B4 /* OLEModalStatus.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OLEModalStatus.framework;
-			remoteRef = C5783249206F700300584A8A /* PBXContainerItemProxy */;
+			remoteRef = C5FF6302206F9A8E00E034B4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C578324C206F700300584A8A /* OLEModalStatusTests.xctest */ = {
+		C5FF6305206F9A8E00E034B4 /* OLEModalStatusTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = OLEModalStatusTests.xctest;
-			remoteRef = C578324B206F700300584A8A /* PBXContainerItemProxy */;
+			remoteRef = C5FF6304206F9A8E00E034B4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -297,15 +297,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C5783250206F702D00584A8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OLEModalStatus;
-			targetProxy = C578324F206F702D00584A8A /* PBXContainerItemProxy */;
-		};
 		C57DE8B5206F6CD80002CA6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C57DE89E206F6CD80002CA6D /* test */;
 			targetProxy = C57DE8B4206F6CD80002CA6D /* PBXContainerItemProxy */;
+		};
+		C5FF6309206F9A9700E034B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OLEModalStatus;
+			targetProxy = C5FF6308206F9A9700E034B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
