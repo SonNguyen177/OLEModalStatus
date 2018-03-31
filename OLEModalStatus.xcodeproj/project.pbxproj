@@ -10,6 +10,8 @@
 		C57DE881206F4E5E0002CA6D /* OLEModalStatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57DE877206F4E5E0002CA6D /* OLEModalStatus.framework */; };
 		C57DE886206F4E5E0002CA6D /* OLEModalStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DE885206F4E5E0002CA6D /* OLEModalStatusTests.swift */; };
 		C57DE888206F4E5E0002CA6D /* OLEModalStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = C57DE87A206F4E5E0002CA6D /* OLEModalStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57DE892206F4EE30002CA6D /* OLEModalStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57DE891206F4EE30002CA6D /* OLEModalStatusView.swift */; };
+		C57DE894206F4EFB0002CA6D /* OLEModalStatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57DE893206F4EFB0002CA6D /* OLEModalStatusView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		C57DE880206F4E5E0002CA6D /* OLEModalStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLEModalStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57DE885206F4E5E0002CA6D /* OLEModalStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLEModalStatusTests.swift; sourceTree = "<group>"; };
 		C57DE887206F4E5E0002CA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57DE891206F4EE30002CA6D /* OLEModalStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLEModalStatusView.swift; sourceTree = "<group>"; };
+		C57DE893206F4EFB0002CA6D /* OLEModalStatusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OLEModalStatusView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		C57DE86D206F4E5E0002CA6D = {
 			isa = PBXGroup;
 			children = (
+				C57DE893206F4EFB0002CA6D /* OLEModalStatusView.xib */,
+				C57DE891206F4EE30002CA6D /* OLEModalStatusView.swift */,
 				C57DE879206F4E5E0002CA6D /* OLEModalStatus */,
 				C57DE884206F4E5E0002CA6D /* OLEModalStatusTests */,
 				C57DE878206F4E5E0002CA6D /* Products */,
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					C57DE876206F4E5E0002CA6D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					C57DE87F206F4E5E0002CA6D = {
@@ -179,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57DE894206F4EFB0002CA6D /* OLEModalStatusView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57DE892206F4EE30002CA6D /* OLEModalStatusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +343,7 @@
 		C57DE88C206F4E5E0002CA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ole.OLEModalStatus;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +365,7 @@
 		C57DE88D206F4E5E0002CA6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +386,7 @@
 		C57DE88F206F4E5E0002CA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OLEModalStatusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +400,7 @@
 		C57DE890206F4E5E0002CA6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OLEModalStatusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
